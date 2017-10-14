@@ -8,6 +8,9 @@
 	<persistence-unit name="jpa.unit">
 		<provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider>
 		<class>com.appspot.Player</class>
+		<class>com.appspot.model.BusRoute</class>
+		<class>com.appspot.model.BusStop</class>
+		<class>com.appspot.model.BusNode</class>
 		<exclude-unlisted-classes />
 		<properties>
 			<property name="datanucleus.ConnectionURL" value="appengine" />

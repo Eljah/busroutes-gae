@@ -115,7 +115,7 @@ public class SVGServlet extends HttpServlet {
         }
 */
 
-        Relation bus=mapDao.getRelation(1282305);
+  /*      Relation bus=mapDao.getRelation(1282305);
         //bus.g
         for (RelationMember member: bus.getMembers()) {
 
@@ -152,7 +152,7 @@ public class SVGServlet extends HttpServlet {
         fontImp.register(FONT);
 
         OutputStream outStream = resp.getOutputStream();
-        ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();
+        ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();  */
 /*
         Document document = XMLResource.load(new ByteArrayInputStream(sb.toString().getBytes())).getDocument();
         ITextRenderer renderer = new ITextRenderer();
@@ -163,7 +163,7 @@ public class SVGServlet extends HttpServlet {
         renderer.createPDF(os);
         os.close();
 
-*/
+*//*
         InputStream is = null;
         try {
             is = new URL("http://localhost:8080/kazan.html").openStream();
@@ -237,6 +237,9 @@ public class SVGServlet extends HttpServlet {
         //    e.printStackTrace();
         //}
 
-        resp.setContentType("application/pdf");
+        resp.setContentType("application/pdf");*/
+
+
+
     }
 }
